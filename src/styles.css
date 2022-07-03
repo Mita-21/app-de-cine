@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/*styles Card.js sin rating*/
+.card{
+padding: 0px;
+filter: drop-shadow(0 6px 3px rgba(0, 0, 0, 0.5));
+opacity: 0.9;
+   
+}
+ .card  :hover {
+  transform: scale(1.10);
+  filter: drop-shadow(0 0 9px rgba(47, 41, 44, 0.8));
+  opacity: 1;
+ }
+ 
+ /*styles Wall.js*/
+.titulo{
+color: whitesmoke;
+font-style:oblique;
+text-shadow: 0 0 12px wheat;
+}
+.borde{  
+  padding:  0em 1em;
+  border-radius: 12px;
+  box-shadow:  0 0 24px wheat;
+  line-height: 1px;
+  height: 200px;
+  background-image: url(https://media.giphy.com/media/tBvPFCFQHSpEI/giphy.gif); 
+  background-position: 400px; 
+  background-repeat: repeat-y; 
+  background-size: auto;
+}
+h2{
+color: yellow;
+font-style:oblique;
+text-shadow: 0 0 12px wheat;
+}
+
+ /*styles Nav.js*/
+.nav{
+  background-image: url("assets/color.jpg");
+  height: 90px;
+}
+ /*styles Footer.js*/
+.ancor{
+  text-decoration: none;
+  color: black;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
