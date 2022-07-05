@@ -67,6 +67,7 @@ export const StyledStar = styled.div`
   .rate{
   font-style:oblique;
   opacity: 0.5;
+  text-align: center;
 }
 .cardRate{
   background-color:grey;
@@ -77,7 +78,7 @@ export const StyledStar = styled.div`
     padding: 0px;
     filter: drop-shadow(0 6px 3px rgba(0, 0, 0, 0.5));
     opacity: 0.7;
+    text-shadow: 0 0 12px wheat;
   }
-  
 }
 `;
