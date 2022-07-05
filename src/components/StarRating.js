@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { StyledStar } from './styles/StyledStar';
 import {StyledCard} from './styles/StyledCard';
 import Card from './Card';
+import '../styles.css';
 
 
 const StarRating = () => {
