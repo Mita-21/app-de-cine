@@ -82,3 +82,11 @@ text-shadow: 0 0 12px wheat;
   }
 }
 
+@media all and (max-width:599px){
+  .nav{
+    background-image: url(https://media.giphy.com/media/tBvPFCFQHSpEI/giphy.gif); 
+  }
+  .media{
+    background-image: url("assets/opaco.jpg");
+  }
+}

@@ -143,7 +143,7 @@ const StarRating = () => {
   return (
     <>
     <StyledStar>    
-      <section className="star-wrapper">
+      <section className="star-wrapper media">
         <span className="star-group">
         <h3 className='rate'>Busca por rating</h3>
           <input onClick={handleInputChange} type="radio" id="rating-10" name="rating" />
